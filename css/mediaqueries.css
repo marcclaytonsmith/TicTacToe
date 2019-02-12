@@ -1,0 +1,23 @@
+/* Media Queries for Responsive Design */
+    @media screen and (min-width:0px) and (max-width:460px) {
+    }
+    @media screen and (min-width:460.01px) and (max-width:540px) {
+        table {
+            width: 400px;
+            height: 400px;
+        }
+    }
+    @media screen and (min-width:540.01px) and (max-width:700px){
+        table {
+            width: 450px;
+            height: 450px;
+        }
+    }
+    @media screen and (min-width:700.01px) {
+        table {
+            width: 500px;
+            height: 500px;
+        }
+    }
+
+   
