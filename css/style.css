@@ -8,14 +8,15 @@
     width: 75px;
   }
   body {
-      background-color: black;
-      margin-top: -15px;
+    background: #353589;
+    background: -webkit-linear-gradient(top left, #353589, #2F2B95);
+    background: -moz-linear-gradient(top left, #353589, #2F2B95);
+    background: linear-gradient(top left, #353589, #2F2B95);
   }
   table {
       border-collapse: collapse;
       margin: 25px auto;
       text-align: center;
-      background-color: lightblue;
   }
   table td {
       border: 1px solid black;
@@ -36,18 +37,14 @@
       width: 100px;
       height: 100px;
   }
-
-/* Reset Button */
-  #btnReset {
-      margin-top: -15px;
-  }
-
+  
 /*Rules Button*/
   .box {
       margin: auto;
       background-clip: padding-box;
       text-align: center;
       margin-left: -150px;
+      top: -5px;
   }
   .button {
     font-size: 1em;
@@ -116,6 +113,7 @@
     text-align: center;
     margin: -19px;
     padding-left: 150px;
+    top: -5px;
   }
   
   .button2 {
@@ -136,6 +134,7 @@
 
 /*About Button*/
   .box3 {
+    position: relative;
     margin: auto;
     background-clip: padding-box;
     text-align: center;
@@ -173,7 +172,7 @@
     padding: 20px;
     background: #fff;
     border-radius: 5px;
-    width: 150px;
+    width: 70%;
     position: relative;
     transition: all 5s ease-in-out;
   }
@@ -199,3 +198,68 @@
     max-height: 30%;
     overflow: auto;
   }
+
+  #td0 {
+    background: #135720;
+    background: -webkit-linear-gradient(top left, #135720, #06C77B);
+    background: -moz-linear-gradient(top left, #135720, #06C77B);
+    background: linear-gradient(top left, #135720, #06C77B);
+  }
+
+  #td1 {
+    background: #135720;
+    background: -webkit-linear-gradient(top left, #135720, #06C77B);
+    background: -moz-linear-gradient(top left, #135720, #06C77B);
+    background: linear-gradient(top left, #135720, #06C77B);
+  }
+
+  #td2 {
+    background: #135720;
+    background: -webkit-linear-gradient(top left, #135720, #06C77B);
+    background: -moz-linear-gradient(top left, #135720, #06C77B);
+    background: linear-gradient(top left, #135720, #06C77B);
+  }
+
+  #td3 {
+    background: #135720;
+    background: -webkit-linear-gradient(top left, #135720, #06C77B);
+    background: -moz-linear-gradient(top left, #135720, #06C77B);
+    background: linear-gradient(top left, #135720, #06C77B);
+  }
+
+  #td4 {
+    background: #135720;
+    background: -webkit-linear-gradient(top left, #135720, #06C77B);
+    background: -moz-linear-gradient(top left, #135720, #06C77B);
+    background: linear-gradient(top left, #135720, #06C77B);
+  }
+
+  #td5 {
+    background: #135720;
+    background: -webkit-linear-gradient(top left, #135720, #06C77B);
+    background: -moz-linear-gradient(top left, #135720, #06C77B);
+    background: linear-gradient(top left, #135720, #06C77B);
+  }
+
+  #td6 {
+    background: #135720;
+    background: -webkit-linear-gradient(top left, #135720, #06C77B);
+    background: -moz-linear-gradient(top left, #135720, #06C77B);
+    background: linear-gradient(top left, #135720, #06C77B);
+  }
+
+  #td7 {
+    background: #135720;
+    background: -webkit-linear-gradient(top left, #135720, #06C77B);
+    background: -moz-linear-gradient(top left, #135720, #06C77B);
+    background: linear-gradient(top left, #135720, #06C77B);
+  }
+
+  #td8 {
+    background: #135720;
+    background: -webkit-linear-gradient(top left, #135720, #06C77B);
+    background: -moz-linear-gradient(top left, #135720, #06C77B);
+    background: linear-gradient(top left, #135720, #06C77B);
+  }
+
+
