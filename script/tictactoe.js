@@ -15,9 +15,9 @@ $(function(){
             currentPlayer=currentPlayer.sort();
 
             if(currentPlayer.includes("td0") && currentPlayer.includes("td1") && currentPlayer.includes("td2")){
-                $("#td0").css("background-color", "yellow");
-                $("#td1").css("background-color", "yellow");
-                $("#td2").css("background-color", "yellow");
+                $("#td0").css("background", "yellow");
+                $("#td1").css("background", "yellow");
+                $("#td2").css("background", "yellow");
                 $("#td3 img").hide();
                 $("#td4 img").hide();
                 $("#td5 img").hide();
@@ -28,9 +28,9 @@ $(function(){
             }
             
             else if(currentPlayer.includes("td3") && currentPlayer.includes("td4") && currentPlayer.includes("td5")){
-                $("#td3").css("background-color", "yellow");
-                $("#td4").css("background-color", "yellow");
-                $("#td5").css("background-color", "yellow");
+                $("#td3").css("background", "yellow");
+                $("#td4").css("background", "yellow");
+                $("#td5").css("background", "yellow");
                 $("#td0 img").hide();
                 $("#td1 img").hide();
                 $("#td2 img").hide();
@@ -39,9 +39,9 @@ $(function(){
                 $("#td8 img").hide();
                 $("td").unbind("click");
             }else if(currentPlayer.includes("td6") && currentPlayer.includes("td7") && currentPlayer.includes("td8")){
-                $("#td6").css("background-color", "yellow");
-                $("#td7").css("background-color", "yellow");
-                $("#td8").css("background-color", "yellow");
+                $("#td6").css("background", "yellow");
+                $("#td7").css("background", "yellow");
+                $("#td8").css("background", "yellow");
                 $("#td0 img").hide();
                 $("#td1 img").hide();
                 $("#td2 img").hide();
@@ -50,9 +50,9 @@ $(function(){
                 $("#td5 img").hide();
                 $("td").unbind("click");
             }else if(currentPlayer.includes("td0") && currentPlayer.includes("td3") && currentPlayer.includes("td6")){
-                $("#td0").css("background-color", "yellow");
-                $("#td3").css("background-color", "yellow");
-                $("#td6").css("background-color", "yellow");
+                $("#td0").css("background", "yellow");
+                $("#td3").css("background", "yellow");
+                $("#td6").css("background", "yellow");
                 $("#td1 img").hide();
                 $("#td2 img").hide();
                 $("#td4 img").hide();
@@ -61,9 +61,9 @@ $(function(){
                 $("#td8 img").hide();
                 $("td").unbind("click");
             }else if(currentPlayer.includes("td1") && currentPlayer.includes("td4") && currentPlayer.includes("td7")){
-                $("#td1").css("background-color", "yellow");
-                $("#td4").css("background-color", "yellow");
-                $("#td7").css("background-color", "yellow");
+                $("#td1").css("background", "yellow");
+                $("#td4").css("background", "yellow");
+                $("#td7").css("background", "yellow");
                 $("#td0 img").hide();
                 $("#td2 img").hide();
                 $("#td3 img").hide();
@@ -72,9 +72,9 @@ $(function(){
                 $("#td8 img").hide();
                 $("td").unbind("click");
             }else if(currentPlayer.includes("td2") && currentPlayer.includes("td5") && currentPlayer.includes("td8")){
-                $("#td2").css("background-color", "yellow");
-                $("#td5").css("background-color", "yellow");
-                $("#td8").css("background-color", "yellow");
+                $("#td2").css("background", "yellow");
+                $("#td5").css("background", "yellow");
+                $("#td8").css("background", "yellow");
                 $("#td0 img").hide();
                 $("#td1 img").hide();
                 $("#td3 img").hide();
@@ -83,9 +83,9 @@ $(function(){
                 $("#td7 img").hide();
                 $("td").unbind("click");
             }else if(currentPlayer.includes("td0") && currentPlayer.includes("td4") && currentPlayer.includes("td8")){
-                $("#td0").css("background-color", "yellow");
-                $("#td4").css("background-color", "yellow");
-                $("#td8").css("background-color", "yellow");
+                $("#td0").css("background", "yellow");
+                $("#td4").css("background", "yellow");
+                $("#td8").css("background", "yellow");
                 $("#td1 img").hide();
                 $("#td2 img").hide();
                 $("#td3 img").hide();
@@ -94,9 +94,9 @@ $(function(){
                 $("#td7 img").hide();
                 $("td").unbind("click");
             }else if(currentPlayer.includes("td2") && currentPlayer.includes("td4") && currentPlayer.includes("td6")){
-                $("#td2").css("background-color", "yellow");
-                $("#td4").css("background-color", "yellow");
-                $("#td6").css("background-color", "yellow");
+                $("#td2").css("background", "yellow");
+                $("#td4").css("background", "yellow");
+                $("#td6").css("background", "yellow");
                 $("#td0 img").hide();
                 $("#td1 img").hide();
                 $("#td3 img").hide();
